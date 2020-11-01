@@ -21,6 +21,6 @@ public class birthdayCakeCandles {
             }
         }
         System.out.print(counter + 1); // ditambah dengan 1 karna nilai awal max belom dihitung ke counter
-
+        in.close();
     }
 }
