@@ -27,5 +27,6 @@ public class appleAndOrange {
             counter = temp >= s && temp <= t ? counter += 1 : counter;
         }
         System.out.println(counter);
+        in.close();
     }
 }
