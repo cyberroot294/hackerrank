@@ -12,7 +12,7 @@ public class breakingTheRecords {
         for (int i = 0; i < len; i++) {
             arr[i] = in.nextInt();
         }
-
+        in.close();
         breakingTheRecords(arr);
     }
 
